@@ -24,9 +24,34 @@
             background: #68b684;
             padding: 20px;
             border-radius: 20px;
+            margin-bottom: 20px;
         }
         header h1 {
             color: white;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            background: #4f9265;
+            border-radius: 10px;
+            transition: background 0.3s;
+        }
+        nav ul li a:hover {
+            background: #68b684;
         }
         .product-grid {
             display: grid;
@@ -73,6 +98,15 @@
     <div class="container">
         <header>
             <h1>Welcome to Organic Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
         </header>
 
         <div class="product-grid">
